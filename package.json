@@ -1,0 +1,25 @@
+{
+  "name": "continuos-integration-fullcycle",
+  "version": "1.0.0",
+  "description": "Continuos Integration Full Cycle",
+  "main": "math.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha *_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramuspedro/continuos-integration-fullcycle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramuspedro/continuos-integration-fullcycle/issues"
+  },
+  "homepage": "https://github.com/ramuspedro/continuos-integration-fullcycle#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "test": "^0.6.0"
+  }
+}
