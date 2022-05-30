@@ -16,7 +16,7 @@ describe('Teste subtração', () => {
 	});
 	// criar um teste que não funciona para teste
 	it('20 menos 10 é igual a 10', () => {
-		assert.equal(11, sub(20,10), "O resultado eh 10");
+		assert.equal(10, sub(20,10), "O resultado eh 10");
 	});
 });
 
