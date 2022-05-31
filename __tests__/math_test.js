@@ -10,18 +10,18 @@ describe('Teste multiplicação', () => {
 	});
 });
 
-// describe('Teste subtração', () => {
-// 	it('10 menos 10 é igual a 0', () => {
-// 		assert.equal(0, sub(10,10), "O resultado eh 0");
-// 	});
-// 	// criar um teste que não funciona para teste
-// 	it('20 menos 10 é igual a 10', () => {
-// 		assert.equal(10, sub(20,10), "O resultado eh 10");
-// 	});
-// });
+describe('Teste subtração', () => {
+	it('10 menos 10 é igual a 0', () => {
+		assert.equal(0, sub(10,10), "O resultado eh 0");
+	});
+	// criar um teste que não funciona para teste
+	it('20 menos 10 é igual a 10', () => {
+		assert.equal(10, sub(20,10), "O resultado eh 10");
+	});
+});
 
-// describe('Teste soma', () => {
-// 	it('10 mais 10 é igual a 20', () => {
-// 		assert.equal(20, add(10,10), "O resultado eh 20");
-// 	});
-// });
+describe('Teste soma', () => {
+	it('10 mais 10 é igual a 20', () => {
+		assert.equal(20, add(10,10), "O resultado eh 20");
+	});
+});
