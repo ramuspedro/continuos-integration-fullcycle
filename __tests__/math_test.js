@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {multiply, sub, add} = require("./math.js");
+const {multiply, sub, add} = require("../src/math.js");
 
 describe('Teste multiplicação', () => {
 	it('10 vezes 10 é igual a 100', () => {
