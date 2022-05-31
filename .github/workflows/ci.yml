@@ -2,6 +2,7 @@ name: ci-nodejs-workflow
 on: 
   pull_request:
     branches:
+      - master
       - develop
 jobs:
   check-application:
@@ -12,7 +13,7 @@ jobs:
           fetch-depth: 0 
       - uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16
       - run: npm ci
       - run: npm test
       - name: SonarCloud Scan
