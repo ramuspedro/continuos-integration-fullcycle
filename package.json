@@ -4,7 +4,7 @@
   "description": "Continuos Integration Full Cycle",
   "main": "math.js",
   "scripts": {
-    "test": "nyc --reporter=text mocha ./src/*_test.js "
+    "test": "nyc --reporter=lcov --reporter=text --report-dir=.nyc_coverage mocha ./src/*_test.js "
   },
   "repository": {
     "type": "git",
