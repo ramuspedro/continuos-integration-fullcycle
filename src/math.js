@@ -10,4 +10,8 @@ const add = (x, y) => {
 	return x + y;
 }
 
-module.exports = { multiply, sub, add };
+const add2 = (x, y, z) => {
+	return x + y + z;
+}
+
+module.exports = { multiply, sub, add, add2 };
