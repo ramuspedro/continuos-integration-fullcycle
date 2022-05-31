@@ -4,7 +4,7 @@
   "description": "Continuos Integration Full Cycle",
   "main": "math.js",
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text --report-dir=.nyc_coverage mocha ./src/*_test.js "
+    "test": "jest --passWithNoTests --no-cache --runInBand --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "dependencies": {
     "assert": "^2.0.0",
     "chai": "^4.3.6",
+    "jest": "^28.1.0",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
     "sonar-scanner": "^3.1.0",
